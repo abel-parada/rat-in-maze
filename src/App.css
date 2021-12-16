@@ -43,5 +43,9 @@ button {
   border: solid, black 1px;
   border-radius: 12px;
   margin: 16px;
-  color: white;
+  color: back;
+}
+
+body {
+  background-color: lightblue;
 }
