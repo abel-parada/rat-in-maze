@@ -21,11 +21,9 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## Screenshots
 
-![alt text](Form.View.Example.png) "Form View"
+![alt text](./src/Components/Images/main.png) "Main View"
 
-![alt text](Form-Input-Example.png) "Input text view"
-
-![alt text](Popup-Example.png) "Popup view"
+![alt text](./src/Components/Images/solution.png) "Solution view"
 
 ## Sources
 
