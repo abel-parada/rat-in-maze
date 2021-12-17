@@ -27,8 +27,7 @@ class Maze extends React.Component {
     return result;
   };
 
-  // generate random 16 length matrix with 0,2.
-  // e.x. [2, 0, 0, 2, 2, 0, 2, 2, 2, 0, 2, 0, 2, 2, 2, 2]
+  // we want 14 because we need room for cheese and mouse
   generateMatrix = () => {
     for (let i = 0; i < 14; i++) {
       let val = Math.floor(Math.random() * 4); // generate random number in 0, 1, 2, 3
@@ -92,9 +91,10 @@ class Maze extends React.Component {
 
   getNumPaths = () => {
     return (
-      <div style={{ color: "green" }}>
+      <div style={{ color: "green" }} className="App">
         <center>
           <b>Total Paths = {this.numPaths} </b>{" "}
+          <p>Scrool down to see them 🤓</p>
         </center>
       </div>
     );
